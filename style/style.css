@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    background: #284854;
+    padding-top: 23px;
+}
+
+.header-container {
+    max-width: 1230px;
+    background-color: #60C1BD;
+    padding: 24px 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.container {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #FFF;
+    padding: 4px 20px;
+}
+
+.nav__link {
+    margin-right: 100px;
+    color: #284854;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+}
+
+.main-block__text--title {
+    color: #8BC441;
+    font-family: Roboto;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102px; /* 120% */
+    margin-bottom: 60px;
+    max-width: 712px;
+}
+
+.main-block__text--paragraph {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    max-width: 542px;
+}
+
+.main-block__img {
+    width: 313px;
+}
+
+.main-block__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 4px;
+    background: #F4F6F0;
+    padding: 45px 90px 45px 30px;
+    display: flex;
+    margin-right: 83px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card__img {
+    width: 101px;
+    margin-right: 35px;
+}
+
+.card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-description__title {
+    color: #8BC441;
+    font-family: Roboto;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-description__text {
+    color: #60C1BD;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.how-works-section {
+    background-color: #FFFFFF;
+    margin-top: -116px;
+    padding-top: 181px;
+    margin-bottom: 80px;
+}
+
+.how-works-description {
+    text-align: center;
+}
+
+.how-works-description__span {
+    color: #60C1BD;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.how-works-description__title {
+    color: #284854;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 111px;
+}
+
+.how-works-cards__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.how-works-cards__card:last-child {
+    margin-bottom: 0;
+}
+
+.how-works-cards__card:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.how-works-cards__card-img {
+    width: 285px;
+    margin-right: 130px;
+}
+
+.how-works-cards__card:nth-child(2n) .how-works-cards__card-img {
+    margin-right: 0;
+    margin-left: 130px;
+}
+
+.how-works-cards__card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.info {
+    max-width: 525px;
+}
+
+.info-span {
+    color: #798B56;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.info-title {
+    color: #8BC441;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.info-text {
+    color: #284854;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.info-text__span {
+    text-decoration: underline;
+    text-decoration-color: #60C1BD;
+}
+
+.who-we-are-section {
+    background: #F4F6F0;
+    padding-top: 83px;
+    padding-bottom: 127px;
+}
+
+.who-we-are {
+    display: flex;
+}
+
+.who-we-are-img {
+    width: 450px;
+    margin-right: 112px;
+}
+
+.who-we-are-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.who-we-are-description__span {
+    color: #60C1BD;
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.who-we-are-description__title {
+    color: #284854;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+.who-we-are-description__text {
+    color: #284854;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.4px;
+    max-width: 504px;
+    margin-bottom: 50px;
+}
+
+.who-we-are-description__link {
+    color: #60C1BD;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #60C1BD;
+    padding: 8px 4px;
+}
+
+.lets-do-this-section {
+    background: #8BC441;
+    padding: 86px 0;
+}
+
+.lets-do-this {
+    display: flex;
+}
+
+.lets-do-this-img {
+    width: 237px;
+    margin-right: 165px;
+}
+
+.lets-do-this-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.lets-do-this-description__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 516px;
+    margin-bottom: 57px;
+}
+
+.description__text {
+    display: flex;
+}
+
+.text {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 239px;
+}
+
+.description__text-first {
+    margin-right: 132px;
+}
+
+.footer-section {
+    padding-top: 120px;
+    padding-bottom: 61px;
+}
+
+.footer-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.columns {
+    display: flex;
+}
+
+.columns-column:first-child {
+    margin-right: 138px;
+}
+
+.columns-column__img {
+    margin-right: 97px;
+    margin-left: 104px;
+    margin-top: 20px;
+}
+
+.columns-column__title {
+    margin-bottom: 25px;
+    color: #284854;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.columns-column__link, .columns-column__address, .columns-column__phone {
+    display: block;
+    color: #60C1BD;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.columns-column__phone {
+    margin-top: 29px;
+}
+
+.columns-column__phone:last-child {
+    margin-top: 0;
+}
+
+.columns-column__link {
+    margin-bottom: 19px;
+}
+
+.columns-column__link:last-child {
+    margin-bottom: 0;
+}
+
+.footer-rows__links {
+    margin-top: -4px;
+    margin-bottom: 37px;
+}
+
+.footer-rows__links-link {
+    color: #60C1BD;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 39px;
+}
+
+.footer-rows__cooperation {
+    color: #284854;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
